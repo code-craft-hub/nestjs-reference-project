@@ -38,6 +38,12 @@ importers:
       '@nestjs/typeorm':
         specifier: ^11.0.0
         version: 11.0.0(@nestjs/common@11.1.9(class-transformer@0.5.1)(class-validator@0.14.2)(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.9)(reflect-metadata@0.2.2)(rxjs@7.8.2)(typeorm@0.3.27(ioredis@5.8.2)(redis@4.7.1)(reflect-metadata@0.2.2)(ts-node@10.9.2(@swc/core@1.15.2)(@types/node@22.19.1)(typescript@5.9.3)))
+      bull:
+        specifier: ^4.16.5
+        version: 4.16.5
+      cache-manager:
+        specifier: ^7.2.5
+        version: 7.2.5
       cache-manager-redis-store:
         specifier: ^3.0.1
         version: 3.0.1
